@@ -12,6 +12,10 @@
   --width-value: 1110px;
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -79,7 +83,7 @@ a {
   flex-direction: column;
   margin: 0 auto;
   width: var(--width-value);
-  min-height: 100vh;
+  min-height: calc(100vh - 90px);
 }
 
 /* NavigationBar */

@@ -11,32 +11,33 @@
     <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
   <body>
-    <main class="content">
+    <main class="content" id="home">
       <!-- Header -->
       <header class="fixed-header">
         <div class="content">
           <nav class="navbar">
-            <img src="./assets/img/logo.svg" alt="Besnik." />
+            <a href="#!">
+              <img src="./assets/img/logo.svg" alt="Besnik." />
+            </a>
             <!-- Navigation -->
             <ul>
-              <li><a href="#!">Home</a></li>
-              <li><a href="#!">Features</a></li>
-              <li><a href="#!">Services</a></li>
-              <li><a href="#!">Resource</a></li>
-              <li><a href="#!">Contact</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#resource">Resource</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
-    
+
             <!-- Action -->
             <div class="actions">
               <a class="action-link" href="#!">Sign in</a>
               <a class="btn action-btn" href="#!">Sign up</a>
             </div>
           </nav>
-  
         </div>
       </header>
       <div class="introduce">
-        <header class="hero-wrap">
+        <div class="hero-wrap">
           <!-- Hero Header -->
           <div class="hero">
             <!-- Info -->
@@ -57,10 +58,10 @@
                 you'll love to live."
             />
           </div>
-        </header>
+        </div>
       </div>
       <!-- Client -->
-      <div class="clients">
+      <div class="clients" id="services">
         <div class="clients-content clients-logo">
           <!-- Logo -->
           <div class="row">
@@ -132,7 +133,7 @@
       </div>
 
       <!-- Guides -->
-      <div class="guides">
+      <div class="guides" id="resource">
         <h1 class="title-guides">How its works?</h1>
         <p class="sub-title">
           Everything you need to know when you're looking to buy, rent, or sell
@@ -188,7 +189,7 @@
       </div>
 
       <!-- Feature Properties -->
-      <div class="introduce">
+      <div class="introduce" id="features">
         <div class="feature-properties">
           <p class="title-feature">Featured Properties</p>
           <div class="clients-content feature">
@@ -556,11 +557,22 @@
             </div>
             <div class="column">
               <h3>Get in touch</h3>
-              <p class="sub-title">You'll find your next home, in any style you prefer.</p>
+              <p class="sub-title">
+                You'll find your next home, in any style you prefer.
+              </p>
               <div class="social">
-                <a href="#!" class="social-link"><img src="/assets/img/ic-fb.svg" alt="Facebook" class="icon"/></a>
-                <a href="#!" class="social-link"><img src="/assets/img/ic-tw.svg" alt="Twitter" class="icon" /></a>
-                <a href="#!" class="social-link"><img src="/assets/img/ic-instagram.svg" alt="Instagram" class="icon"/></a>
+                <a href="#!" class="social-link"
+                  ><img src="/assets/img/ic-fb.svg" alt="Facebook" class="icon"
+                /></a>
+                <a href="#!" class="social-link"
+                  ><img src="/assets/img/ic-tw.svg" alt="Twitter" class="icon"
+                /></a>
+                <a href="#!" class="social-link"
+                  ><img
+                    src="/assets/img/ic-instagram.svg"
+                    alt="Instagram"
+                    class="icon"
+                /></a>
               </div>
             </div>
           </div>
