@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "../next-realworld-example-app"
+	},
+	{
+		"path": "../f8"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "f8"
+  }
+}
